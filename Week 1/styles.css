@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS DOCUMENT */
+
+#yellow {
+    color: yellow;
+    background-color: purple;
+    width: 500px;
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+img {
+    float: left;
+
+}
+
+.content {
+    text-indent: 20px;
+    background-color: chocolate;
+
+}

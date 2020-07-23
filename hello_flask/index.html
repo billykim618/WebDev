@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<script>
+
+			function greet()
+			{
+				let name = document.querySelector('#name').value;
+				alert('Hello ' + name);
+			}
+
+		</script>
+		<title>
+			THIS IS THE TAB
+		</title>
+	</head>
+	<body>
+		<form onsubmit="greet(); return false;">
+			<input autofocus id="name" type="text">
+			<input type="submit">
+		</form>
+		<header>
+			hello header
+		</header>
+		<main>
+			hello, main
+		</main>
+		<footer>
+			hello, &#170; footer
+		</footer>
+
+	</body>
+</html>
